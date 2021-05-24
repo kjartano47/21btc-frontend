@@ -3,10 +3,12 @@
 }
 
 .content {
+	margin-top: 100px;
 	padding: 12px;
 	height: 3000px;
 }
 
 img {
-	max-width: 5%;
+	width: 50px;
+	margin: 10px 1px 1px 20%;
 }
