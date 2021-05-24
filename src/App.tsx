@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
-import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
-import logo from './bitcoin.svg.png'
 import NavbarComp from './components/NavbarComp';
 
 
