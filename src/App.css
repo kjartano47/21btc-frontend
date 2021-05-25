@@ -10,5 +10,9 @@
 
 img {
 	width: 50px;
-	margin: 10px 1px 1px 20%;
+	margin: 10px 1px 1px 100%;
+}
+.navItems {
+	margin: 0 0 0 40%;
+	color: blue;
 }

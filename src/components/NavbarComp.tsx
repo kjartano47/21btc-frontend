@@ -13,9 +13,9 @@ const NavbarComp: React.FC<{}> = () => {
 
       <Navbar.Toggle/>
       <Navbar.Collapse>
-      <Nav>
-        <NavDropdown id="1" title="Introduction">
-          <NavDropdown.Item href="introduction/individuals">Introduction</NavDropdown.Item>
+      <Nav >
+        <NavDropdown className="navItems"  id="1" title="Introduction">
+          <NavDropdown.Item  href="introduction/individuals">Introduction</NavDropdown.Item>
           <NavDropdown.Item href="introduction/businesses">Businesses</NavDropdown.Item>
           <NavDropdown.Divider/>
           <NavDropdown.Item href="introduction/businesses">White paper</NavDropdown.Item>
