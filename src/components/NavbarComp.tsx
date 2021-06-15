@@ -4,9 +4,8 @@ import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
 import logo from '../bitcoin.svg.png'
 
 const NavbarComp: React.FC<{}> = () => {
-    return (<div className="App">
-      <Navbar bg="dark" variant="dark"
-       expand="sm">
+    return (<div className="NavbarComp">
+      <Navbar>
       <Navbar.Brand className="bitcoin-logo" href="/"> 
         <img src={logo} alt="Bitcoin " />  {' '}
       </Navbar.Brand>

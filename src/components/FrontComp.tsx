@@ -1,9 +1,16 @@
 import React from 'react';
 
-const IntroComp: React.FC<{}> = () => {
-    return (<div>
-      Hello this is The Front Page
-      </div>
+const FrontComp: React.FC<{}> = () => {
+    return (
+    <body>
+        <h1 className="catcher">
+      Welcome to 21BTC
+      </h1>
+        <h2>
+            Here you can learn all about Bitcoin
+        </h2>
+    </body>
+    
     )
   };
-  export default IntroComp;
+  export default FrontComp;
