@@ -25,7 +25,7 @@ const App: React.FC = () => {
         <Introduction num={3}/>
       </Route>
 
-      {/* Front Page */}
+      {/* Main Page */}
       <Route path='/'>
         <FrontComp/>
       </Route>
