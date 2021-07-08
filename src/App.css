@@ -29,7 +29,7 @@ body {
 }
 
 body {
-	background: linear-gradient(-45deg, #ebddd9, #eecbd8, #c2d7df, #e0dcc3);
+	background: linear-gradient(-45deg, white, white, white, white);
 	background-size: 400% 400%;
 	animation: gradient 3000 ease infinite;
 }
@@ -43,4 +43,12 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.paper {
+	display: flex;
+	justify-content: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 30px;
 }

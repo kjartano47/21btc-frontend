@@ -14,11 +14,12 @@ const NavbarComp: React.FC<{}> = () => {
       <Navbar.Collapse>
       <Nav >
         <NavDropdown className="navItems"  id="1" title="Introduction">
-          <NavDropdown.Item  href="/introduction/individuals">Individuals</NavDropdown.Item>
+          <NavDropdown.Item  href="/introduction/what-is-bitcoin">What is Bitcoin?</NavDropdown.Item>
           <NavDropdown.Item href="/introduction/businesses">Businesses</NavDropdown.Item>
           <NavDropdown.Divider/>
           <NavDropdown.Item href="/introduction/white-paper">White paper</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link href="/lightning">Lightning</Nav.Link>
         <Nav.Link href="/resources">Resources</Nav.Link>
         <Nav.Link href="/faq">FAQ</Nav.Link>
       </Nav>

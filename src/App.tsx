@@ -11,7 +11,7 @@ const App: React.FC = () => {
     <NavbarComp/>
     <Switch>
       {/* Introduction */}
-      <Route path='/introduction/individuals'>
+      <Route path='/introduction/what-is-bitcoin'>
         <Introduction num={1} />
       </Route>
 
