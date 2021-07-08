@@ -29,7 +29,13 @@ body {
 }
 
 body {
-	background: linear-gradient(-45deg, white, white, white, white);
+	background: linear-gradient(
+		-45deg,
+		rgb(218, 188, 188),
+		white,
+		white,
+		rgb(224, 230, 245)
+	);
 	background-size: 400% 400%;
 	animation: gradient 3000 ease infinite;
 }
