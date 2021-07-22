@@ -58,3 +58,10 @@ body {
 	margin-right: 20%;
 	margin-top: 30px;
 }
+.paper-buttons {
+	display: flex;
+	justify-content: space-evenly;
+}
+button-item {
+	padding: 20px;
+}
