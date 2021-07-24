@@ -5,7 +5,7 @@ import WhitePaperComp from './WhitePaperComp';
 const IntroComp: React.FC<{ num: number }> = ({num}) => {
 
   //What is Bitcoin?
-  if(num == 1){
+  if(num === 1){
     return (
       
       <p>What is Bitcoin</p>
@@ -13,14 +13,14 @@ const IntroComp: React.FC<{ num: number }> = ({num}) => {
   }
   
 //Businesses
-  if(num == 2){
+  if(num === 2){
     return (
       
       <p>Businesses</p>
     )
   }
   //White paper
-  if(num == 3){
+  if(num === 3){
     return (
       
       <WhitePaperComp/>

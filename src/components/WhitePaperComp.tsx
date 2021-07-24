@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Paper } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 
 const WhitePaperComp: React.FC<{}> = () => {
     return (

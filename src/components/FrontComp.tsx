@@ -1,5 +1,4 @@
 import React from 'react';
-import WhitePaperComp from './WhitePaperComp';
 
 
 const FrontComp: React.FC<{}> = () => {
@@ -7,6 +6,7 @@ const FrontComp: React.FC<{}> = () => {
     <body>
         <h1 className="catcher">
       Welcome to 21BTC
+      
       </h1>
     </body>
     
