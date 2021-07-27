@@ -5,8 +5,8 @@ const WhitePaperComp: React.FC<{}> = () => {
     return (
     <body>
         <p className="paper"> Satoshi Nakamoto's original paper is still recommended reading for anyone studying how Bitcoin works.
-       Choose which translation of the paper you want to read:
 </p>
+{/* <p>Choose which translation of the paper you want to read:</p> */}
 <div className="paper-buttons">
 <Button className="button-item" variant="outlined" onClick={()=> window.open("https://bitcoin.org/bitcoin.pdf", "_blank")}>English</Button>
 <Button className="button-item" variant="outlined" onClick={()=> window.open("https://bitcoin.org/files/bitcoin-paper/bitcoin_de.pdf", "_blank")}>Deutsch</Button>
