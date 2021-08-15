@@ -4,7 +4,7 @@ import WhitePaperComp from './WhitePaperComp';
 
 const IntroComp: React.FC<{ num: number }> = ({num}) => {
 
-  //What is Bitcoin?
+  //What is Bitcoin? Here I can add components for the intro
   if(num === 1){
     return (
       
